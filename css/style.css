@@ -1,0 +1,159 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+}
+.header__bg{
+	background-image: url(../images/woman_in_red.jpg);
+	background-repeat: no-repeat;
+	height: 700px;
+	background-size: cover;
+	width: 100%; 
+	padding-top: 3px;
+	position: relative;
+}
+.top__nav{
+	width: 100%;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.logo{
+	margin: -3px 80px 0 115px;
+	min-width: 250px;
+}
+.menu{
+	list-style-type: none;
+	margin: 0;
+}
+.menu__item, .logo{
+  	float: left;
+}
+.menu__item{
+	position: relative;
+}
+.menu__item .a{
+	display: inline-block;
+	font-family: Raleway, sans-serif;
+	font-size: 18px;
+	height: 18px;
+  	color: #a4a4a4;
+	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	padding: 26px;
+}
+.hov{
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	top: -3px;
+	left: 40%;
+	height: 68px;
+	width: 27px;
+}
+.hov.active{
+	border-top: 3px solid #ff0036;
+	border-bottom: 2px solid #ff0036;
+}
+.menu__item.active .a, .menu__item:hover .a{
+	color: #fff;
+}
+.right__arrow{
+	position: absolute;
+	bottom: 45%;
+	right: 25px;
+}
+.left__arrow{
+	position: absolute;
+	bottom: 45%;
+	left: 25px;
+}
+.why{
+	color: #fff;
+	width: 100%; 
+	margin: 185px auto 0;
+}
+.heading{
+	font-family: Railway, sans-serif;
+	color: #ff0036;
+	font-weight: bold;
+	font-size: 30px;
+	max-width: 230px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.why p{
+  	max-width: 1030px;
+  	margin: 0 auto;
+  	text-align: center;
+  	margin-bottom: 40px;
+  	padding: 0 60px;	
+}
+.why div{
+	max-width: 430px;
+	margin: 0 auto;
+}
+.btn{
+	min-width: 170px;
+	margin: 15px;
+	padding: 10px 0;
+	font-family: Raleway, sans-serif;
+	color: #fff	;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.about{
+	width: 100%;
+	margin-top: 100px;
+	color: #505050; 
+}
+.about .p1{
+	font-weight: bold;
+	max-width: 950px;
+	margin: 0 auto 35px;
+}
+.description{
+	max-width: 1200px;
+	padding: 50px;
+	margin: 0 auto;
+}
+.description__img{
+	max-width: 100%;	
+	float: right;
+}
+.toggle__box{
+	max-width: 570px;
+}
+.toggle__box p{
+	margin-bottom: 35px;
+	text-align: justify;
+}
+.toggle{
+	background-color: #f7f7f7;
+	border: 1px solid #e7e7e7;
+}
+.show{
+	padding: 10px 20px;
+	border-right: 1px solid #e7e7e7;
+	margin-right: 30px;
+	float: left;
+}
+.remove{
+	display: none;
+	padding: 10px 20px;
+	border-right: 1px solid #e7e7e7;
+	margin-right: 30px;
+	float: left;
+}
+.toggle p{
+	margin: 10px 30px;
+	position: relative;	
+}
